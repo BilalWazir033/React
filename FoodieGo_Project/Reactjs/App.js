@@ -9,3 +9,7 @@ const App = ()=>{
         <img src={Logo} alt="Logo" />
     )
 }
+
+git add .
+git commit -m "Added Logo image and App component to display it"
+git push origin main
