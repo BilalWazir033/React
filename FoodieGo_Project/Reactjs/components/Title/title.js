@@ -9,6 +9,3 @@ const Title = ()=>{
 
 export default Title;
 
-git add .
-git commit -m "Added Title component with logo image"
-git push origin main

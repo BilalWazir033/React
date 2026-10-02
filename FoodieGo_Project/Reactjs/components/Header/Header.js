@@ -15,3 +15,6 @@ const Header = ()=>{
         </div>
     )
 }
+git add .
+git commit -m "Added Header component with navigation links and integrated Title component."
+git push origin main
