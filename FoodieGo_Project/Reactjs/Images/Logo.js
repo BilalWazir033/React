@@ -1,0 +1,1 @@
+export const Logo = "https://png.pngtree.com/png-clipart/20240710/original/pngtree-order-foods-online-from-app-by-smart-phone-fast-food-delivery-png-image_15527451.png"

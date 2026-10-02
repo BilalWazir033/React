@@ -1,0 +1,12 @@
+.logo{
+    padding-left: 10px;
+    width: 100px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: rgb(1, 163, 144);
+}
