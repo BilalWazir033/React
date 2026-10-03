@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Logo from "./images/Logo.js";
+import Logo from "./Images/Logo.js";
 
 
 
@@ -10,6 +10,3 @@ const App = ()=>{
     )
 }
 
-git add .
-git commit -m "Added Logo image and App component to display it"
-git push origin main
