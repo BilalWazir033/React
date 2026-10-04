@@ -8,3 +8,8 @@ const App = () => {
 };
 
 export default App;
+
+git add .  
+git commit -m "Added Header component and updated App.jsx to include it"
+git push origin main
+lallalla
