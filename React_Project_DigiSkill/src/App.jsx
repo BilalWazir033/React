@@ -37,9 +37,6 @@ import './App.css'
 //   return <div>{isNotification &&<p>You have a new notification.</p>}</div>
 // }
 
-git add . 
-git commit -m "&& operator used only for if, ternary operator, conditional rendering, react fragments, array mapping"
-git push origin main
 
 //React fragments: to return a one fragment,file or component only
 // function App() {
@@ -74,27 +71,27 @@ git push origin main
 //   );
 // }
 
-// function App() {
-//   const students = [
-//     { id: 1, name: 'John Doe', age: 20 },
-//     { id: 2, name: 'Jane Smith', age: 22 },
-//     { id: 3, name: 'Michael Johnson', age: 19 },
-//   ];
-//   const isTeacher = false; // Change this to false to test the "not a teacher" state
-//   return (
-//     <>
-//     <h1>Student List</h1>
-//     {isTeacher && <p>Teacher Mode</p>}
-//     <ul>
-//       {students.map((student, index) => (
-//         <li key={index}>
-//           <strong>{student.name}</strong> - {student.age} years old
-//         </li>
-//       ))}
-//     </ul>
-//     </>
-//   );
-// }
+function App() {
+  const students = [
+    { id: 1, name: 'John Doe', age: 20 },
+    { id: 2, name: 'Jane Smith', age: 22 },
+    { id: 3, name: 'Michael Johnson', age: 19 },
+  ];
+  const isTeacher = false; // Change this to false to test the "not a teacher" state
+  return (
+    <>
+    <h1>Student List</h1>
+    {isTeacher && <p>Teacher Mode</p>}
+    <ul>
+      {students.map((student, index) => (
+        <li key={index}>
+          <strong>{student.name}</strong> - {student.age} years old
+        </li>
+      ))}
+    </ul>
+    </>
+  );
+}
 
 
 
