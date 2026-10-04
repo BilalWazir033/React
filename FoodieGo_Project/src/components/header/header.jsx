@@ -24,3 +24,7 @@ const Header = () => {
 
 export default Header;
 
+git add .  
+git commit -m "Added header component with logo and navigation links"
+git push origin main
+
