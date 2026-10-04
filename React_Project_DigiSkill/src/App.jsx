@@ -37,6 +37,10 @@ import './App.css'
 //   return <div>{isNotification &&<p>You have a new notification.</p>}</div>
 // }
 
+git add . 
+git commit -m "&& operator used only for if, ternary operator, conditional rendering, react fragments, array mapping"
+git push origin main
+
 //React fragments: to return a one fragment,file or component only
 // function App() {
 //   return(
