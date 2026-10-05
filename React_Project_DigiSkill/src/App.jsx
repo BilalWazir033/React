@@ -100,42 +100,43 @@ import Card from './Components/Card'
 //   );
 // }
 
-//  function App() {
-//   return (
-//     <div className="app">
-//       <h1>Hello</h1>
-//       <Header />
-//       <Navbar />
-//       <br />
-//       <Student name="Alice" age="25" city="New York" />
-//       <br />
-//       <Student age="30" city="Los Angeles" />
-//       <br />
-//       <Card>
-//         <h2>Hello from Main File</h2>
-//       </Card>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-function App() {
-  const [count,setCount]=useState(0);
-
+ function App() {
   return (
     <div className="app">
-    <h1>{count}</h1>
-    <div className="button">
-    <button onClick={()=>setCount(count+1)}>Increment</button>
-    <button onClick={()=>setCount(count-1)}>Decrement</button>
-    <button onClick={()=>setCount(0)}>Reset</button>
-    </div>
+      <h1>Hello</h1>
+      <Header />
+      <Navbar />
+      <br />
+      <Student name="Alice" age="25" city="New York" />
+      <br />
+      <Student age="30" city="Los Angeles" />
+      <br />
+      <Card>
+        <h2>Hello from Main File</h2>
+      </Card>
+      <Footer />
     </div>
   );
 }
 git add . 
-git commit -m "Added counter functionality to App component with increment, decrement, and reset buttons."
+git commit -m "Added Footer component and updated App.jsx to include Header, Navbar, Student, Card, and Footer components using React fragments and props for Student component."
 git push origin main
+
+// function App() {
+//   const [count,setCount]=useState(0);
+
+//   return (
+//     <div className="app">
+//     <h1>{count}</h1>
+//     <div className="button">
+//     <button onClick={()=>setCount(count+1)}>Increment</button>
+//     <button onClick={()=>setCount(count-1)}>Decrement</button>
+//     <button onClick={()=>setCount(0)}>Reset</button>
+//     </div>
+//     </div>
+//   );
+// }
+
 
 
 // function App() {
