@@ -3,6 +3,13 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
+import Header from './Components/Header'
+import './index.css'
+import Student from './Components/student'
+import Card from './Components/Card'
+
 // conditional rending
 //  function App() {
 //   return (
@@ -71,27 +78,78 @@ import './App.css'
 //   );
 // }
 
+// function App() {
+//   const students = [
+//     { id: 1, name: 'John Doe', age: 20 },
+//     { id: 2, name: 'Jane Smith', age: 22 },
+//     { id: 3, name: 'Michael Johnson', age: 19 },
+//   ];
+//   const isTeacher = false; // Change this to false to test the "not a teacher" state
+//   return (
+//     <>
+//     <h1>Student List</h1>
+//     {isTeacher && <p>Teacher Mode</p>}
+//     <ul>
+//       {students.map((student, index) => (
+//         <li key={index}>
+//           <strong>{student.name}</strong> - {student.age} years old
+//         </li>
+//       ))}
+//     </ul>
+//     </>
+//   );
+// }
+
+//  function App() {
+//   return (
+//     <div className="app">
+//       <h1>Hello</h1>
+//       <Header />
+//       <Navbar />
+//       <br />
+//       <Student name="Alice" age="25" city="New York" />
+//       <br />
+//       <Student age="30" city="Los Angeles" />
+//       <br />
+//       <Card>
+//         <h2>Hello from Main File</h2>
+//       </Card>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// function App() {
+//   const [count,setCount]=useState(0);
+
+//   return (
+//     <div className="app">
+//     <h1>{count}</h1>
+//     <div className="button">
+//     <button onClick={()=>setCount(count+1)}>Increment</button>
+//     <button onClick={()=>setCount(count-1)}>Decrement</button>
+//     <button onClick={()=>setCount(0)}>Reset</button>
+//     </div>
+//     </div>
+//   );
+// }
+
+
 function App() {
-  const students = [
-    { id: 1, name: 'John Doe', age: 20 },
-    { id: 2, name: 'Jane Smith', age: 22 },
-    { id: 3, name: 'Michael Johnson', age: 19 },
-  ];
-  const isTeacher = false; // Change this to false to test the "not a teacher" state
+  const [name,setName]=useState(""); 
   return (
-    <>
-    <h1>Student List</h1>
-    {isTeacher && <p>Teacher Mode</p>}
-    <ul>
-      {students.map((student, index) => (
-        <li key={index}>
-          <strong>{student.name}</strong> - {student.age} years old
-        </li>
-      ))}
-    </ul>
-    </>
+    <div className="app">
+    
+      <input value={name} onChange={(e)=>setName(e.target.value)}/>
+
+      <h1>Hello {name}</h1>
+    </div>
   );
 }
+
+
+
+
 
 
 

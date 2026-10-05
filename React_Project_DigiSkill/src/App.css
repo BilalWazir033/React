@@ -1,23 +1,86 @@
-/* body {
-  margin: 0;
+/* .app {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 25px;
+  text-align: center;
+}
+
+.app h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+
+}
+
+.app h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 4px 0;
+}
+
+nav {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 14px;
+  color: #666;
+  margin-top: auto;
+  margin-bottom: 20px;
+} */
+
+
+.app {
+  width: 100%;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  padding-top: 25px;
+  text-align: center;
 }
 
-.fruit-list {
-  list-style: none;
-  margin: 0;
+.app h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.buttons {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: column;
+  /* gap: 10px; */
+  width: 100%;
+  
 }
 
-.fruit-list li {
-  padding: 10px 20px;
-  border: 1px solid #94f1d3;
-  color: #16083c;
-  border-radius: 10px;
-  background-color: lightblue;
-} */
+.app button {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+
+.app button:hover {
+  background-color: #0056b3;
+}
+
