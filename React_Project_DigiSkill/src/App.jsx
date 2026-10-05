@@ -119,33 +119,36 @@ import Card from './Components/Card'
 //   );
 // }
 
-// function App() {
-//   const [count,setCount]=useState(0);
-
-//   return (
-//     <div className="app">
-//     <h1>{count}</h1>
-//     <div className="button">
-//     <button onClick={()=>setCount(count+1)}>Increment</button>
-//     <button onClick={()=>setCount(count-1)}>Decrement</button>
-//     <button onClick={()=>setCount(0)}>Reset</button>
-//     </div>
-//     </div>
-//   );
-// }
-
-
 function App() {
-  const [name,setName]=useState(""); 
+  const [count,setCount]=useState(0);
+
   return (
     <div className="app">
-    
-      <input value={name} onChange={(e)=>setName(e.target.value)}/>
-
-      <h1>Hello {name}</h1>
+    <h1>{count}</h1>
+    <div className="button">
+    <button onClick={()=>setCount(count+1)}>Increment</button>
+    <button onClick={()=>setCount(count-1)}>Decrement</button>
+    <button onClick={()=>setCount(0)}>Reset</button>
+    </div>
     </div>
   );
 }
+git add . 
+git commit -m "Added counter functionality to App component with increment, decrement, and reset buttons."
+git push origin main
+
+
+// function App() {
+//   const [name,setName]=useState(""); 
+//   return (
+//     <div className="app">
+    
+//       <input value={name} onChange={(e)=>setName(e.target.value)}/>
+
+//       <h1>Hello {name}</h1>
+//     </div>
+//   );
+// }
 
 
 
