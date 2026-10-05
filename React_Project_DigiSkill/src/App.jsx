@@ -100,27 +100,25 @@ import Card from './Components/Card'
 //   );
 // }
 
- function App() {
-  return (
-    <div className="app">
-      <h1>Hello</h1>
-      <Header />
-      <Navbar />
-      <br />
-      <Student name="Alice" age="25" city="New York" />
-      <br />
-      <Student age="30" city="Los Angeles" />
-      <br />
-      <Card>
-        <h2>Hello from Main File</h2>
-      </Card>
-      <Footer />
-    </div>
-  );
-}
-git add . 
-git commit -m "Added Footer component and updated App.jsx to include Header, Navbar, Student, Card, and Footer components using React fragments and props for Student component."
-git push origin main
+//  function App() {
+//   return (
+//     <div className="app">
+//       <h1>Hello</h1>
+//       <Header />
+//       <Navbar />
+//       <br />
+//       <Student name="Alice" age="25" city="New York" />
+//       <br />
+//       <Student age="30" city="Los Angeles" />
+//       <br />
+//       <Card>
+//         <h2>Hello from Main File</h2>
+//       </Card>
+//       <Footer />
+//     </div>
+//   );
+// }
+
 
 // function App() {
 //   const [count,setCount]=useState(0);

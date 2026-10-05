@@ -84,3 +84,6 @@ footer {
   background-color: #0056b3;
 }
 
+git add .
+git commit -m "Learned components, props, and state in React. Created a simple counter app with increment, decrement, and reset functionality."
+git push origin main
